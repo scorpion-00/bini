@@ -25,9 +25,10 @@ app/
 ├── services/
 │   ├── __init__.py          # Service initialization
 │   ├── config.py            # Configuration settings (MongoDB URI, port, etc.)
-│   ├── database.py          # MongoDB initialization
 │   └── user_services.py     # User-related business logic (CRUD operations)
-│
+|
+|── config.py                # Configuration settings (MongoDB URI, port, etc.)
+│── database.py              # MongoDB initialization
 └── main.py                  # Main entry point of the application
 
 docker-compose.yml           # Docker Compose setup for Flask and MongoDB
